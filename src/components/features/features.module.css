@@ -1,0 +1,37 @@
+.main_features{
+    position: relative;
+}
+.feature_wrapper{
+    max-width: 1216px;
+    margin: 0 auto;
+    display: flex;
+    padding: 144px 74px;
+}
+.feature_item{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-right: 38px;
+    text-align: left;
+}
+.feature_icon{
+    width: 135px;
+    height: 135px;
+}
+h4 {
+    font-family: CerebriSans, sans-serif;
+    font-weight: 700;
+}
+.feature_name {
+    font-size: 26px;
+    line-height: 32px;
+    color: #17262b;
+    padding-top: 32px;
+}
+.feature_description{
+    color: #485256;
+    padding-top: 24px;
+}
+p{
+    line-height: 23px;
+    font-size: 18px;
+}

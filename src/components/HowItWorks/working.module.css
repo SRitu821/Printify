@@ -1,0 +1,145 @@
+.main_working {
+  background: #f7f7f7;
+  position: relative;
+}
+.working_wrapper {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 100px 24px 20px;
+}
+.workingDesc {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.mainImg {
+  align-self: flex-end;
+  z-index: 1;
+  position: relative;
+  width: 39.5%;
+  height: 0;
+  padding-top: 55.5%;
+  border-radius: 20px;
+  background-image: url(../../components/photoes/clothes.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #18c75a;
+  background-size: 100% 100%;
+}
+.visitMore {
+  width: 25px;
+  height: 25px;
+  color: #18c75a;
+}
+/* .edit_previewSection{
+    width: 200px;
+    height: 220px;
+    background-color: #f7f7f7;
+    border: 1px solid black;
+}
+.previewImg{
+    width: 50px;
+    height: 60px;
+    margin-left: 15rem;
+} */
+.textSection {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding: 7% 9% 13.5% 57%;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 20px;
+  text-align: left;
+}
+.overviewTitle {
+  color: #17262b;
+  font-size: 32px;
+}
+h2 {
+  font-family: CerebriSans, sans-serif;
+  font-weight: 700;
+  line-height: 39px;
+}
+.overviewText {
+  color: #485256;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  opacity: 0.7;
+}
+p {
+  line-height: 23px;
+  font-size: 18px;
+  color: #353a47;
+}
+.productLink {
+  display: flex;
+  font-weight: 600;
+  position: relative;
+  font-family: CerebriSans, sans-serif;
+  font-size: 18px;
+  transition: color 0.15s;
+  cursor: pointer;
+  color: #39b75d;
+  text-decoration: none;
+  outline: none;
+}
+
+.rightArrow {
+  font-size: 24px;
+  margin-left: 4px;
+}
+.Swiper {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 144px 74px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.div1, .div2, .div3 {
+    padding: 0px 20px 0 0;
+    flex: 1;
+  }
+.swiperImg {
+  width: 200px;
+  height: 200px;
+}
+.swiperContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+h4,
+h6 {
+  font-family: CerebriSans, sans-serif;
+  font-weight: 700;
+}
+
+.swiperTilte1 {
+  text-align: left;
+  padding-top: 65px;
+  margin: 0;
+  font-size: 24px;
+  line-height: 24px;
+  color: #29ab51;
+}
+.swiperTitle2 {
+  text-align: left;
+  font-size: 28px;
+  line-height: 32px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #17262b;
+}
+.swiperDescription {
+  display: flex;
+  font-family: CerebriSans, sans-serif;
+  font-size: 18px;
+  color: #485256;
+  max-width: 100%;
+}

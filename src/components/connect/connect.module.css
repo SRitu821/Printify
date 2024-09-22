@@ -1,0 +1,182 @@
+.connect_container {
+  position: relative;
+}
+.connectWraper {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 100px 97px 120px;
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+}
+.connect_title {
+  align-self: center;
+  font-size: 40px;
+  line-height: 10px;
+  color: #17262b;
+}
+h2 {
+  font-family: CerebriSans, sans-serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.connect_text {
+  align-self: center;
+  text-align: center;
+  line-height: 2px;
+  color: #485256;
+  opacity: 0.7;
+}
+p {
+  font-size: 17px;
+}
+.connect_desc {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-top: 44.5%;
+}
+.descrip_Area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  background: url(../../components/photoes/stores-background.svg) no-repeat
+    center center;
+  background-size: 100% 100%;
+}
+.store {
+  box-shadow: 0 6px 10px #757c7e1a, 0 3px 20px #757c7e26, 0 3px 4px #757c7e33;
+  border-radius: 20px;
+  /* will-change: left, top; */
+}
+.presta {
+  background: url(../../components/photoes/presta.svg) no-repeat center center;
+  background-color: #fff;
+  width: 8.5%;
+  height: 0;
+  padding-top: 8.5%;
+  position: absolute;
+  top: 52%;
+  left: 26%;
+}
+.wix {
+  background: url(../../components/photoes/wix.svg) no-repeat center center;
+  background-color: #fff;
+  width: 10.5%;
+  height: 0;
+  padding-top: 10.5%;
+  position: absolute;
+  top: -2%;
+  left: 94.8%;
+}
+.woo {
+  background: url(../../components/photoes/woo.svg) no-repeat center center;
+  background-color: #fff;
+  width: 7.5%;
+  height: 0;
+  padding-top: 7.5%;
+  position: absolute;
+  top: 35%;
+  left: 77%;
+}
+.squarespace {
+  background: url(../../components/photoes/squarespace.svg) no-repeat center
+    center;
+  background-color: #fff;
+  width: 8.5%;
+  height: 0;
+  padding-top: 8.5%;
+  position: absolute;
+  background-size: contain;
+  top: 10%;
+  left: 64%;
+}
+.shopify {
+  background: url(../../components/photoes/shopify.svg) no-repeat center center;
+  background-color: #fff;
+  width: 12.5%;
+  height: 0;
+  padding-top: 11.5%;
+  position: absolute;
+  top: 75%;
+  left: 52%;
+}
+.more {
+  font-size: 32px;
+  /* position: relative; */
+  background-color: #fff;
+  width: 7.5%;
+  height: 0;
+  padding-top: 7%;
+  position: absolute;
+  top: 70%;
+  left: 38%;
+}
+.more h2 {
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  top: 38%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  color: #485256;
+}
+.etsy {
+  background: url(../../components/photoes/etsy.svg) no-repeat center center;
+  background-color: #fff;
+  width: 13.5%;
+  height: 0;
+  padding-top: 13.5%;
+  position: absolute;
+  opacity: 1;
+  visibility: inherit;
+  left: 88%;
+  top: 59%;
+}
+.bigCommerce {
+  background: url(../../components/photoes/big-commerce.svg) no-repeat center
+    center;
+  background-color: #fff;
+  width: 7.5%;
+  height: 0;
+  padding-top: 7%;
+  position: absolute;
+  top: 3%;
+  left: 32%;
+}
+.printify {
+  box-shadow: none;
+  background: url(../../components/photoes/printify.svg) no-repeat center center;
+  background-color: #18c75a;
+  width: 14%;
+  height: 0;
+  padding-top: 14%;
+  position: absolute;
+  top: 25%;
+  left: 45%;
+}
+.api {
+  font-size: 32px;
+  /* position: relative; */
+  background-color: #fff;
+  width: 13.5%;
+  height: 0;
+  padding-top: 13.5%;
+  position: absolute;
+  top: 62%;
+  left: 8%;
+}
+
+.api h2 {
+  font-size: 30px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #485256;
+}

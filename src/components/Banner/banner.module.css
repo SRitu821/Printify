@@ -1,0 +1,166 @@
+.main_banner {
+  max-width: 1280px;
+  padding: 0 32px;
+  margin: 0 auto;
+  background: url(../../components/photoes/bannerBg.svg) no-repeat center right;
+}
+.bannerWrapper {
+  max-width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  /* flex-direction: column; */
+  flex: 1;
+  padding: 56px 24px;
+}
+.bannerDescription {
+  width: 40%;
+  align-self: center;
+}
+h1 {
+  font-family: CerebriSans, sans-serif;
+  text-align: left;
+  font-size: 56px;
+  line-height: 72px;
+  color: #17262b;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+}
+.bannerAdv {
+  font-family: CerebriSans, sans-serif;
+  display: inline;
+  font-weight: 500;
+  line-height: 24px;
+  color: #485256;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.bannerAdv li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 8px;
+  padding-left: 4px;
+}
+.IoMdCheckmark {
+  padding-top: 4px;
+  margin-right: 8px;
+  color: green;
+  font-size: 25px;
+  font-weight: 400;
+}
+.advantages {
+  display: flex;
+  font-size: 18px;
+}
+.bannerNavigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-right: 16px;
+  padding: 12px 5px;
+  margin-top: 16px;
+}
+.primaryBtn {
+  display: inline-block;
+  height: 52px;
+  border: 0;
+  margin-right: 12px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #39b75d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 36px;
+  line-height: 48px;
+  font-family: CerebriSans, sans-serif;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+.primaryBtn:hover {
+  background-color: #39a357; /* Darker green on hover */
+}
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  color: #353a47;
+  border: 1px solid #c2c2c2;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 20px;
+  line-height: 48px;
+  white-space: nowrap;
+  font-family: CerebriSans, sans-serif;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.secondaryBtnIcon {
+  padding-top: 6px;
+  padding-right: 8px;
+  font-size: 18px;
+}
+.secondaryBtn:hover {
+  color: #39b75d;
+}
+
+.secondaryBtn span {
+  color: inherit;
+}
+
+.secondaryBtn svg {
+  color: #353a47;
+}
+.bannerInfo {
+  color: #39b65e;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+p {
+  font-family: CerebriSans, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  flex-basis: 100%;
+}
+/* @media screen and (max-width: 960px) {
+    .bannerAdv {
+        padding-top: 16px;
+    }
+} */
+
+.bannerPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tshirtWrapper {
+    position: relative;
+}
+
+.tshirtLogo {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.girlImage{
+    position: relative;
+    cursor: pointer;
+    /* background: none; */
+}
+.girlImage img {
+    width: 100px; 
+    height: auto;
+}
