@@ -53,22 +53,9 @@ const Banner = () => {
                 </div>
                 <div className={styles.bannerPic}>
                 <div className={styles.tshirtWrapper}>
-                        <img
-                            src={currentLogo}
-                            alt="T-shirt"
-                            className={styles.tshirtLogo}
-                        />
-                        <div
-                            className={styles.girlImage}
-                            onMouseEnter={handleHover}
-                        >
-                            <img
-                                src={require("../../components/photoes/girl2.png")}
-                                alt="Girl pointing to t-shirt"
-                            />
-                        </div>
+                        
                     </div>
-
+                    <img  className={styles.animation} src={require("../../components/photoes/animation.gif")}/>
                 </div>
             </div>
         </div>

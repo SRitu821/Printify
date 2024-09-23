@@ -1,142 +1,8 @@
-/* .main_container {
-  position: relative;
-  background-color: #f7f7f7;
-  padding: 2rem 0;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-  padding: 0 1.5rem;
-}
-
-.social_decription {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #353a47;
-  margin-bottom: 1rem;
-}
-
-.text {
-  font-size: 16px;
-  line-height: 24px;
-  color: #485256;
-}
-
-.socialMediaContainer {
-  display: flex;
-  gap: 1rem;
-  width: 90%;
-}
-
-.social_proofWrapper {
-  width: 100%;
-  max-width: 380px;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-.proof_imgContainer {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.img1 {
-  width: 64px;
-  height: 64px;
-  background-image: url(../../components/photoes/robert-voltaire.png);
-  border-radius: 5px;
-  object-fit: cover;
-  margin-right: 1rem;
-}
-.img2 {
-    width: 64px;
-    height: 64px;
-    background-image: url(../../components/photoes/quinten-barney.png);
-    border-radius: 5px;
-    object-fit: cover;
-    margin-right: 1rem;
-  }
-  .img3 {
-    width: 64px;
-    height: 64px;
-    background-image: url(../../components/photoes/nikki.png);
-    border-radius: 5px;
-    object-fit: cover;
-    margin-right: 1rem;
-  }
-  .img4 {
-    width: 64px;
-    height: 64px;
-    background-image: url(../../components/photoes/spencer.png);
-    border-radius: 5px;
-    object-fit: cover;
-    margin-right: 1rem;
-  }
-  .img5 {
-    width: 64px;
-    height: 64px;
-    background-image: url(../../components/photoes/april-showers.jpeg);
-    border-radius: 5px;
-    object-fit: cover;
-    margin-right: 1rem;
-  }
-
-.imgtitle {
-  text-align: left;
-}
-
-.name {
-  font-size: 18px;
-  font-weight: 700;
-  color: #353a47;
-  margin-bottom: 0.25rem;
-}
-
-.authorLink {
-  font-size: 16px;
-  color: #18c75a;
-  text-decoration: none;
-}
-
-.starsRemarks {
-  margin-top: 0.5rem;
-}
-
-.stars {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: url(../../components/photoes/star.svg) no-repeat center;
-  background-size: contain;
-  margin-right: 0.25rem;
-}
-
-.proof_desc {
-  font-size: 16px;
-  color: #485256;
-  line-height: 24px;
-  opacity: 0.9;
-} */
-
-
-
 .main_container {
     position: relative;
     background-color: #f7f7f7;
     padding: 2rem 0;
-    height: 25vw;
+    height: 30vw;
   }
   
   .wrapper {
@@ -151,6 +17,10 @@
   .social_decription {
     text-align: center;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 6rem;
+    /* align-items: self-start; */
   }
   
   .title {
@@ -158,12 +28,17 @@
     font-weight: 700;
     color: #353a47;
     margin-bottom: 1rem;
+    max-width: 27%;
+    text-align: left;
+    margin-right: 2rem;
   }
   
   .text {
     font-size: 16px;
     line-height: 24px;
     color: #485256;
+    max-width: 27%;
+    margin-top: 2rem;
   }
   
   .socialMediaContainer {
@@ -178,7 +53,7 @@
     background-color: #fff;
     padding: 2rem;
     border-radius: 15px;
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
+    height: 17rem;
   }
   
   .proof_imgContainer {
@@ -250,10 +125,11 @@
     font-size: 16px;
     color: #485256;
     line-height: 24px;
+    text-align: start;
   }
   .swiperButtonPrev, .swiperButtonNext {
     position: absolute;
-    top: 86%;
+    top: 91%;
     transform: translateY(-50%);
     z-index: 10;
     font-size: 24px; /* Change the size of the arrows */

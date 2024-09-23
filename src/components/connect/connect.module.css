@@ -90,7 +90,7 @@ p {
   background: url(../../components/photoes/squarespace.svg) no-repeat center
     center;
   background-color: #fff;
-  width: 6.5%;
+  width: 0.5%;
   height: 0;
   padding-top: 8.5%;
   position: absolute;
@@ -101,7 +101,7 @@ p {
 .shopify {
   background: url(../../components/photoes/shopify.svg) no-repeat center center;
   background-color: #fff;
-  width: 12.5%;
+  width: 1.5%;
   height: 0;
   padding-top: 11.5%;
   position: absolute;
@@ -112,8 +112,8 @@ p {
   font-size: 32px;
   position: relative;
   background-color: #fff;
-  width: 7.5%;
-  height: 0;
+  /* width: 7.5%; */
+  height: 2%;
   padding-top: 7%;
   position: absolute;
   top: 70%;
@@ -131,7 +131,7 @@ p {
 .etsy {
   background: url(../../components/photoes/etsy.svg) no-repeat center center;
   background-color: #fff;
-  width: 13.5%;
+  width: 4.5%;
   height: 0;
   padding-top: 13.5%;
   position: absolute;
@@ -144,8 +144,8 @@ p {
   background: url(../../components/photoes/big-commerce.svg) no-repeat center
     center;
   background-color: #fff;
-  width: 7.5%;
-  height: 0;
+  /* width: 0.5%; */
+  height: 6%;
   padding-top: 7%;
   position: absolute;
   top: 3%;
@@ -155,9 +155,9 @@ p {
   box-shadow: none;
   background: url(../../components/photoes/printify.svg) no-repeat center center;
   background-color: #18c75a;
-  width: 14%;
+  width: 2%;
   height: 0;
-  padding-top: 14%;
+  padding-top: 12%;
   position: absolute;
   top: 25%;
   left: 45%;
@@ -166,7 +166,7 @@ p {
   font-size: 32px;
   position: relative;
   background-color: #fff;
-  width: 13.5%;
+  width: 3.5%;
   height: 0;
   padding-top: 13.5%;
   position: absolute;

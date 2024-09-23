@@ -8,7 +8,7 @@
 }
 .bannerWrapper {
   display: flex;
-  width: 50vw;
+  width: 60vw;
 }
 .bannerDescription {
   width: 40%;
@@ -128,11 +128,6 @@ p {
   text-align: left;
   flex-basis: 100%;
 }
-/* @media screen and (max-width: 960px) {
-    .bannerAdv {
-        padding-top: 16px;
-    }
-} */
 
 .bannerPic {
     display: flex;
@@ -145,20 +140,9 @@ p {
     position: relative;
 }
 
-.tshirtLogo {
-    width: 250px;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.girlImage{
-    position: relative;
-    cursor: pointer;
-    /* background: none; */
-}
-.girlImage img {
-    width: 100px; 
-    height: auto;
+
+.animation{
+  width: 24rem;
+  margin-left: 7rem;
+    border-radius: 20px;
 }
