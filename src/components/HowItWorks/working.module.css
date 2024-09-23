@@ -33,17 +33,7 @@
   height: 25px;
   color: #18c75a;
 }
-/* .edit_previewSection{
-    width: 200px;
-    height: 220px;
-    background-color: #f7f7f7;
-    border: 1px solid black;
-}
-.previewImg{
-    width: 50px;
-    height: 60px;
-    margin-left: 15rem;
-} */
+
 .textSection {
   position: absolute;
   bottom: 0;
@@ -100,19 +90,21 @@ p {
   justify-content: space-between;
   gap: 50px;
 }
-.div1, .div2, .div3 {
-    padding: 0px 20px 0 0;
-    flex: 1;
-  }
+.div1,
+.div2,
+.div3 {
+  padding: 0px 20px 0 0;
+  flex: 1;
+}
 .swiperImg {
   width: 200px;
   height: 200px;
 }
 .swiperContent {
-    display: flex;
-    flex-direction: column;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+
 h4,
 h6 {
   font-family: CerebriSans, sans-serif;

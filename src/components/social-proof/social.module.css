@@ -1,155 +1,159 @@
 .main_container {
-    position: relative;
-    background-color: #f7f7f7;
-    padding: 2rem 0;
-    height: 30vw;
-  }
-  
-  .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 65vw;
-    padding: 0 1.5rem;
-  }
-  
-  .social_decription {
-    text-align: center;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    margin-left: 6rem;
-    /* align-items: self-start; */
-  }
-  
-  .title {
-    font-size: 36px;
-    font-weight: 700;
-    color: #353a47;
-    margin-bottom: 1rem;
-    max-width: 27%;
-    text-align: left;
-    margin-right: 2rem;
-  }
-  
-  .text {
-    font-size: 16px;
-    line-height: 24px;
-    color: #485256;
-    max-width: 27%;
-    margin-top: 2rem;
-  }
-  
-  .socialMediaContainer {
-    width: 100%;
-    margin-left: 45rem;
-    display: flex;
+  position: relative;
+  background-color: #f7f7f7;
+  padding: 2rem 0;
+  height: 30vw;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 65vw;
+  padding: 0 1.5rem;
+}
+
+.social_decription {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 6rem;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #353a47;
+  margin-bottom: 1rem;
+  max-width: 27%;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #485256;
+  max-width: 27%;
+  margin-top: 2rem;
+}
+
+.socialMediaContainer {
+  width: 100%;
+  margin-left: 45rem;
+  display: flex;
   gap: 1rem;
-  }
-  
-  .social_proofWrapper {
-    width: 73%;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 15px;
-    height: 17rem;
-  }
-  
-  .proof_imgContainer {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .img1, .img2, .img3, .img4, .img5 {
-    width: 64px;
-    height: 64px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    margin-right: 1rem;
-  }
-  
-  .img1 {
-    background-image: url(../../components/photoes/robert-voltaire.png);
-  }
-  
-  .img2 {
-    background-image: url(../../components/photoes/quinten-barney.png);
-  }
-  
-  .img3 {
-    background-image: url(../../components/photoes/nikki.png);
-  }
-  
-  .img4 {
-    background-image: url(../../components/photoes/spencer.png);
-  }
-  
-  .img5 {
-    background-image: url(../../components/photoes/april-showers.jpeg);
-  }
-  
-  .imgtitle {
-    text-align: left;
-  }
-  
-  .name {
-    font-size: 18px;
-    font-weight: 700;
-    color: #353a47;
-    margin-bottom: 0.25rem;
-  }
-  
-  .authorLink {
-    font-size: 16px;
-    color: #18c75a;
-    text-decoration: none;
-  }
-  
-  .starsRemarks {
-    margin-top: 0.5rem;
-  }
-  
-  .stars {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url(../../components/photoes/star.svg) no-repeat center;
-    background-size: contain;
-    margin-right: 0.25rem;
-  }
-  
-  .proof_desc {
-    font-size: 16px;
-    color: #485256;
-    line-height: 24px;
-    text-align: start;
-  }
-  .swiperButtonPrev, .swiperButtonNext {
-    position: absolute;
-    top: 91%;
-    transform: translateY(-50%);
-    z-index: 10;
-    font-size: 24px; /* Change the size of the arrows */
-    color: #353a47; /* Change the color of the arrows */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .swiperButtonPrev {
-    left: 26rem /* Position the left arrow */
-  }
-  
-  .swiperButtonNext {
-    right: 26rem; /* Position the right arrow */
-  }
-  
-  .swiperButtonPrev:hover, .swiperButtonNext:hover {
-    background-color: rgba(0, 0, 0, 0.5); /* Change background color on hover */
-    color: white; /* Change arrow color on hover */
-  }
-  
+}
+
+.social_proofWrapper {
+  width: 73%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  height: 17rem;
+}
+
+.proof_imgContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.img1 {
+  background-image: url(../../components/photoes/robert-voltaire.png);
+}
+
+.img2 {
+  background-image: url(../../components/photoes/quinten-barney.png);
+}
+
+.img3 {
+  background-image: url(../../components/photoes/nikki.png);
+}
+
+.img4 {
+  background-image: url(../../components/photoes/spencer.png);
+}
+
+.img5 {
+  background-image: url(../../components/photoes/april-showers.jpeg);
+}
+
+.imgtitle {
+  text-align: left;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #353a47;
+  margin-bottom: 0.25rem;
+}
+
+.authorLink {
+  font-size: 16px;
+  color: #18c75a;
+  text-decoration: none;
+}
+
+.starsRemarks {
+  margin-top: 0.5rem;
+}
+
+.stars {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../components/photoes/star.svg) no-repeat center;
+  background-size: contain;
+  margin-right: 0.25rem;
+}
+
+.proof_desc {
+  font-size: 16px;
+  color: #485256;
+  line-height: 24px;
+  text-align: start;
+}
+.swiperButtonPrev,
+.swiperButtonNext {
+  position: absolute;
+  top: 91%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 24px;
+  color: #353a47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.swiperButtonPrev {
+  left: 26rem;
+}
+
+.swiperButtonNext {
+  right: 26rem;
+}
+
+.swiperButtonPrev:hover,
+.swiperButtonNext:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}

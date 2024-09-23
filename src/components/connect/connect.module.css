@@ -3,20 +3,20 @@
 }
 .connectWraper {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 54vw;
-    margin-left: 18rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 54vw;
+  margin-left: 18rem;
 }
 .connect_title {
   font-size: 40px;
-    line-height: 10px;
-    color: #17262b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 19rem;
+  line-height: 10px;
+  color: #17262b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 19rem;
 }
 h2 {
   font-family: CerebriSans, sans-serif;
@@ -182,4 +182,3 @@ p {
   transform: translate(-50%, -50%);
   color: #485256;
 }
-

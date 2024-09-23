@@ -130,19 +130,18 @@ p {
 }
 
 .bannerPic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .tshirtWrapper {
-    position: relative;
+  position: relative;
 }
 
-
-.animation{
+.animation {
   width: 24rem;
   margin-left: 7rem;
-    border-radius: 20px;
+  border-radius: 20px;
 }

@@ -12,12 +12,6 @@ const Working = () => {
             <span className={styles.visitMore}>
               <CiCirclePlus />
             </span>
-            {/* <div className={styles.edit_previewSection}>
-                <img 
-                className={styles.previewImg}
-                src={require("../../components/photoes/tshirt.png")}
-                />
-            </div> */}
           </div>
           <div className={styles.textSection}>
             <div className={styles.overviewWrapper}>

@@ -30,7 +30,8 @@
   display: block;
   width: 156px;
   height: 50px;
-  background: url(../../components/photoes/headerLogo.png) center / contain no-repeat;
+  background: url(../../components/photoes/headerLogo.png) center / contain
+    no-repeat;
 }
 
 .navContent {
@@ -54,10 +55,9 @@
   color: #000;
   font-weight: 500;
   padding: 10px;
-  
 }
-.navOption:hover{
-  color:#2f9e4c
+.navOption:hover {
+  color: #2f9e4c;
 }
 .dropdown {
   display: none;
@@ -67,10 +67,10 @@
   /* right: 80px; */
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 10px;   
+  padding: 10px;
   box-shadow: 0 0 2px #757c7e1a, 0 2px 3px #757c7e26, 0 1px 3px #757c7e40;
   border-radius: 4px;
-  transition: visibility 0ms, opacity .22s linear;
+  transition: visibility 0ms, opacity 0.22s linear;
 }
 
 .items:hover .dropdown {
@@ -79,24 +79,24 @@
 }
 
 .dropdown li {
-  display: block; 
-  width: 100%; 
+  display: block;
+  width: 100%;
 }
 
 .dropdown ul {
-  list-style: none; 
-  padding: 0; 
-  margin: 0; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .dropdown li a {
   display: block;
-  width: 100%; 
+  width: 100%;
   margin-right: 40px;
-  text-align: left; 
-  padding: 10px 15px; 
-  box-sizing: border-box; 
-  white-space: nowrap; 
+  text-align: left;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
 
@@ -105,7 +105,7 @@
   align-items: center;
 }
 
-.loginBtn{
+.loginBtn {
   color: #353a47;
   border: 1px solid #c2c2c2;
   background-color: #fff;
@@ -117,7 +117,7 @@
   font-size: 16px;
   cursor: pointer;
   overflow: hidden;
-  transition: .1s;
+  transition: 0.1s;
   min-width: 100px;
   padding: 0 16px;
   vertical-align: top;
@@ -141,8 +141,8 @@
   padding: 0 16px;
   font-family: inherit;
 }
-.loginBtn:hover{
-  color: #2f9e4c ;
+.loginBtn:hover {
+  color: #2f9e4c;
 }
 .signUpBtn:hover {
   background-color: #2f9e4c;
