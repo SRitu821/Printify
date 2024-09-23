@@ -1,16 +1,14 @@
 .main_banner {
-  max-width: 1280px;
-  padding: 0 32px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58vw;
+  margin-left: 24rem;
   background: url(../../components/photoes/bannerBg.svg) no-repeat center right;
 }
 .bannerWrapper {
-  max-width: 1216px;
-  margin: 0 auto;
   display: flex;
-  /* flex-direction: column; */
-  flex: 1;
-  padding: 56px 24px;
+  width: 50vw;
 }
 .bannerDescription {
   width: 40%;

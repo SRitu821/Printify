@@ -2,10 +2,12 @@
     position: relative;
 }
 .feature_wrapper{
-    max-width: 1216px;
-    margin: 0 auto;
     display: flex;
-    padding: 144px 74px;
+    width: 50vw;
+    align-items: center;
+    margin-left: 32rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem
 }
 .feature_item{
     flex-grow: 1;
@@ -14,24 +16,23 @@
     text-align: left;
 }
 .feature_icon{
-    width: 135px;
-    height: 135px;
+    width: 125px;
+    height: 125px;
 }
 h4 {
     font-family: CerebriSans, sans-serif;
     font-weight: 700;
 }
 .feature_name {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 20px;
     color: #17262b;
-    padding-top: 32px;
+    padding-top: 18px;
 }
 .feature_description{
     color: #485256;
-    padding-top: 24px;
+    padding-top: 2px;
 }
 p{
-    line-height: 23px;
-    font-size: 18px;
+    line-height: 22px;
+    font-size: 14px;
 }

@@ -22,7 +22,6 @@ const Connect = () => {
             <a className={`${styles.store} ${styles.more}`}>
               <h2>And more</h2>
             </a>
-
             <a className={`${styles.store} ${styles.etsy}`}></a>
             <a className={`${styles.store} ${styles.bigCommerce}`}></a>
             <a className={`${styles.store} ${styles.printify}`}></a>

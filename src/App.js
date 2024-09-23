@@ -5,6 +5,7 @@ import Features from './components/features/features';
 import Working from './components/HowItWorks/working';
 import Connect from './components/connect/connect';
 import Sales from './components/sales/sales';
+import Social from './components/social-proof/social';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <div><Working /></div>
         <div><Connect /></div>
         <div><Sales /></div>
+        <div><Social /></div>
 
       </div>
     </div>
