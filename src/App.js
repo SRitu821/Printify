@@ -6,6 +6,7 @@ import Working from "./components/HowItWorks/working";
 import Connect from "./components/connect/connect";
 import Sales from "./components/sales/sales";
 import Social from "./components/social-proof/social";
+import Finance from "./components/Financial/financial";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         </div>
         <div>
           <Social />
+        </div>
+        <div>
+          <Finance />
         </div>
       </div>
     </div>

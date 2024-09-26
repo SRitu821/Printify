@@ -1,0 +1,9 @@
+.financialWrapper{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.financialWrapper{
+    position: relative;
+    width: 100%;
+}
