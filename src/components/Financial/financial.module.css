@@ -7,3 +7,15 @@
     position: relative;
     width: 100%;
 }
+.description{
+    background: #203741;
+    border-radius: 20px;
+}
+.description_wrapper{
+    translate: none;
+    rotate: none;
+    scale: none;
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(0px, 0px);
+}

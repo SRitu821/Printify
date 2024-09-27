@@ -4,7 +4,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
-
+import { SlArrowRight } from "react-icons/sl";
+import { SlArrowLeft } from "react-icons/sl";
 import styles from "./social.module.css";
 
 const Social = () => {
@@ -179,10 +180,10 @@ const Social = () => {
             </SwiperSlide>
           </Swiper>
           <div className={styles.swiperButtonPrev} ref={prevRef}>
-            &lt;
+          <SlArrowLeft />
           </div>
           <div className={styles.swiperButtonNext} ref={nextRef}>
-            &gt;
+          <SlArrowRight />
           </div>
         </div>
       </div>
