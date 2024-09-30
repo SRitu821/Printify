@@ -10,6 +10,7 @@
 .description{
     background: #203741;
     border-radius: 20px;
+    width: 30%;
 }
 .description_wrapper{
     translate: none;
@@ -34,4 +35,10 @@ h2{
 }
 p{
     font-size: 16px;
+}
+.explaination_table{
+    background: #17262b;
+    border-radius: 10px;
+    margin-top: 32px;
+    padding: 40px; 
 }
